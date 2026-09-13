@@ -1,0 +1,134 @@
+/* ========================================== */
+/* 1. BODY STYLES (Pura Page Design)          */
+/* ========================================== */
+body {
+    /* background-color: Page ka background color set karta hai */
+    background-color: #0f172a; 
+    
+    /* color: Pura text ka default color badalta hai */
+    color: #e2e8f0; 
+    
+    /* font-family: Text ka style/font change karta hai */
+    font-family: Arial, sans-serif; 
+    
+    /* padding: Element ke andar ki taraf jagah (space) banata hai */
+    padding: 20px; 
+    
+    /* margin: Element ke baahir ki taraf doosri cheezon se fasla deta hai */
+    margin: 0; 
+    
+    /* display & align-items: Saari cheezon ko center mein laane ke liye */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* ========================================== */
+/* 2. CONTAINER / BOX STYLES (Login Box)      */
+/* ========================================== */
+.login-container {
+    /* background: Box ke andar ka color ya transparent shade */
+    background: rgba(131, 21, 21, 0.05); 
+    
+    /* backdrop-filter: Peeche wali cheezon ko blur karta hai (Glass effect) */
+    backdrop-filter: blur(10px); 
+    
+    /* padding: Box ke andar text aur borders ke beech fasla */
+    padding: 30px; 
+    
+    /* border-radius: Box ke kono (corners) ko gol karta hai */
+    border-radius: 15px; 
+    
+    /* width: Box ki chaurai fix karta hai */
+    width: 350px; 
+    
+    /* box-shadow: Box ke ird-gird shadow (chhaya) banata hai taake 3D lage */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3); 
+    margin-bottom: 20px;
+}
+
+/* ========================================== */
+/* 3. HEADINGS (h1 tags)                      */
+/* ========================================== */
+h1 {
+    /* color: Heading ka special color */
+    color: #818cf8;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* ========================================== */
+/* 4. INPUT FIELDS (Typing boxes)             */
+/* ========================================== */
+input {
+    /* width: Input box ko poori width deta hai */
+    width: 100%; 
+    
+    /* padding: Likhne ki jagah ko khulla aur comfortable karta hai */
+    padding: 12px; 
+    
+    /* border: Input ke ird-gird line ki motai aur color */
+    border: 1px solid rgba(255, 255, 255, 0.2); 
+    
+    /* border-radius: Input ke konay gol karta hai */
+    border-radius: 8px; 
+    
+    /* background-color: Input ke andar ka rang */
+    background-color: rgba(0, 0, 0, 0.2); 
+    
+    /* color: Jo text user likhega uska color */
+    color: #ffffff; 
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+/* ========================================== */
+/* 5. BUTTONS STYLES                          */
+/* ========================================== */
+.login-btn {
+    /* background-color: Button ka main rang */
+    background-color: #6366f1; 
+    
+    /* color: Button ke text ka rang */
+    color: white; 
+    
+    /* border: none; Button ki default line khatam karta hai */
+    border: none; 
+    
+    /* padding: Button ko mota aur bara banata hai */
+    padding: 12px; 
+    
+    /* border-radius: Button ke konay gol karta hai */
+    border-radius: 8px; 
+    
+    /* cursor: pointer; Mouse le jane par arrow ko haath (pointer) mein badal deta hai */
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+}
+
+/* ========================================== */
+/* 6. TABLES STYLES                           */
+/* ========================================== */
+table {
+    /* width: Table ko poori container width par phailata hai */
+    width: 100%; 
+    
+    /* border-collapse: Double lines ko single line mein merge karta hai */
+    border-collapse: collapse; 
+    margin-top: 15px;
+}
+
+th, td {
+    /* border: Table ke khano ki lines ka color aur style */
+    border: 1px solid rgba(255, 255, 255, 0.15); 
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    /* background-color: Table ki heading row ka rang */
+    background-color: rgba(27, 29, 180, 0.2);
+}
